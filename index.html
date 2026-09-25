@@ -4,25 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Куртки Moncler и Parajumpers в Таллинне. Личная примерка, помощь с размером, доставка по Европе. Пишите в Telegram — ответим быстро." />
-  <title>Moncler & Parajumpers Tallinn | Купить — Andrelook</title>
+  <title>Moncler &amp; Parajumpers Tallinn | Купить — Andrelook</title>
+  <link rel="canonical" href="https://www.andrelook.store/" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preload" as="image" href="images/hero-bg.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" />
   <link rel="stylesheet" href="css/style.css" />
-  <meta name="keywords" content="Moncler, Parajumpers, купить Moncler Таллинн, Parajumpers Estonia, брендовые куртки, Moncler Tallinn, buy Moncler Estonia" />
-  <meta property="og:title" content="Moncler & Parajumpers Tallinn | Купить — Andrelook" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta property="og:title" content="Moncler &amp; Parajumpers Tallinn | Купить — Andrelook" />
   <meta property="og:description" content="Куртки Moncler и Parajumpers в Таллинне. Личная примерка, помощь с размером, доставка по Европе. Пишите в Telegram — ответим быстро." />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Andrelook" />
+  <meta property="og:url" content="https://www.andrelook.store/" />
+  <meta property="og:image" content="https://www.andrelook.store/images/hero-bg.jpg" />
+  <meta property="og:image:alt" content="Andrelook collection" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Moncler &amp; Parajumpers Tallinn | Купить — Andrelook" />
+  <meta name="twitter:description" content="Куртки Moncler и Parajumpers в Таллинне. Личная примерка, помощь с размером, доставка по Европе." />
+  <meta name="twitter:image" content="https://www.andrelook.store/images/hero-bg.jpg" />
+  <meta name="twitter:image:alt" content="Andrelook collection" />
+  <meta name="theme-color" content="#f4f1eb" />
   <meta name="robots" content="index, follow" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.andrelook.store/#organization",
+          "name": "Andrelook",
+          "url": "https://www.andrelook.store/",
+          "logo": "https://www.andrelook.store/images/logo.png",
+          "email": "info.andrelook@gmail.com",
+          "sameAs": [
+            "https://t.me/andrelookstore",
+            "https://www.instagram.com/andrelook.store/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.andrelook.store/#website",
+          "name": "Andrelook",
+          "url": "https://www.andrelook.store/",
+          "publisher": { "@id": "https://www.andrelook.store/#organization" },
+          "inLanguage": ["ru", "en", "et"]
+        }
+      ]
+    }
+  </script>
 </head>
-<body>
+<body data-page="home">
 
   <header class="site-header" id="site-header">
     <div class="container header-inner">
-      <a href="index.html">
-        <img src="images/logo.png" alt="Andrelook" class="logo-img" />
+      <a href="index.html" aria-label="Andrelook">
+        <img src="images/logo.png" alt="Andrelook" class="logo-img" width="476" height="302" decoding="async" />
       </a>
 
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary navigation" data-i18n-aria-label="primary_navigation">
         <a href="index.html"   class="nav-link" data-i18n="nav_home">Главная</a>
         <a href="catalog.html" class="nav-link" data-i18n="nav_catalog">Каталог</a>
         <a href="#how"         class="nav-link" data-i18n="nav_how">Как купить</a>
@@ -31,30 +73,30 @@
       </nav>
 
       <div class="lang-switcher">
-        <button class="lang-btn" data-lang="ru">RU</button>
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="et">ET</button>
+        <button class="lang-btn" type="button" data-lang="ru">RU</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="et">ET</button>
       </div>
 
       <!-- Mobile: lang dropdown -->
       <div class="mobile-lang-wrap">
-        <button class="mobile-lang-btn" id="mobile-lang-toggle" aria-label="Language">
+        <button class="mobile-lang-btn" id="mobile-lang-toggle" type="button" aria-label="Language" aria-expanded="false" aria-controls="mobile-lang-dropdown" data-i18n-aria-label="language_menu">
           <span>RU</span>
         </button>
-        <div class="mobile-lang-dropdown" id="mobile-lang-dropdown">
-          <button class="lang-btn" data-lang="ru">RU</button>
-          <button class="lang-btn" data-lang="en">EN</button>
-          <button class="lang-btn" data-lang="et">ET</button>
+        <div class="mobile-lang-dropdown" id="mobile-lang-dropdown" aria-hidden="true" inert>
+          <button class="lang-btn" type="button" data-lang="ru">RU</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="et">ET</button>
         </div>
       </div>
 
-      <button class="hamburger" id="hamburger" aria-label="Menu">
+      <button class="hamburger" id="hamburger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav" data-i18n-aria-label="menu_toggle">
         <span></span><span></span>
       </button>
     </div>
   </header>
 
-  <nav class="mobile-nav" id="mobile-nav">
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert data-i18n-aria-label="mobile_navigation">
     <a href="index.html"   class="nav-link" data-i18n="nav_home">Главная</a>
     <a href="catalog.html" class="nav-link" data-i18n="nav_catalog">Каталог</a>
     <a href="#how"         class="nav-link" data-i18n="nav_how">Как купить</a>
@@ -91,7 +133,7 @@
         <div class="hero-footer-left">
           <div class="hero-scroll-hint">
             <div class="hero-scroll-bar"></div>
-            <span>scroll</span>
+            <span data-i18n="scroll_hint">scroll</span>
           </div>
         </div>
         <div class="hero-footer-center">
@@ -105,7 +147,7 @@
       </div>
     </section>
 
-    <div class="ticker" aria-label="ticker">
+    <div class="ticker">
       <div class="ticker-inner" id="ticker-inner"></div>
     </div>
 
@@ -167,57 +209,57 @@
         <div class="reviews-slider reveal">
           <div class="reviews-track" id="reviews-track">
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Заказал Moncler Maya — куртка пришла быстро, качество просто отличное. Упаковка аккуратная, всё именно как договаривались. Ткань мягкая, пошив идеальный. Однозначно буду обращаться снова."</p>
-              <div class="review-author"><span class="review-name">Александр М.</span></div>
+            <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_1">"Заказал Moncler Maya — куртка пришла быстро, качество просто отличное. Упаковка аккуратная, всё именно как договаривались. Ткань мягкая, пошив идеальный. Однозначно буду обращаться снова."</p>
+              <div class="review-author"><span class="review-name" data-i18n="review_name_1">Александр М.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Брал жилет Moncler Tibb — давно искал именно такой фасон. Андрей помог с выбором размера, объяснил все нюансы. Всё подошло идеально с первого раза. Сервис на высшем уровне."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_2">"Брал жилет Moncler Tibb — давно искал именно такой фасон. Андрей помог с выбором размера, объяснил все нюансы. Всё подошло идеально с первого раза. Сервис на высшем уровне."</p>
               <div class="review-author"><span class="review-name">Dmitri K.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Очень доволен покупкой. Parajumpers Jeordie — именно то, что искал долгое время. Цена честная, доставка быстрая, упаковка надёжная. Буду рекомендовать всем друзьям."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_3">"Очень доволен покупкой. Parajumpers Jeordie — именно то, что искал долгое время. Цена честная, доставка быстрая, упаковка надёжная. Буду рекомендовать всем друзьям."</p>
               <div class="review-author"><span class="review-name">Mihail T.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Покупаю здесь уже второй раз и снова доволен. Всегда всё чётко — договорились, оплатил, получил. Moncler Vezere просто огонь: очень лёгкая, тёплая и выглядит дорого."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_4">"Покупаю здесь уже второй раз и снова доволен. Всегда всё чётко — договорились, оплатил, получил. Moncler Vezere просто огонь: очень лёгкая, тёплая и выглядит дорого."</p>
               <div class="review-author"><span class="review-name">Artur V.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Сомневался поначалу насчёт онлайн-покупки, но всё прошло отлично. Встретились лично, проверил куртку Moncler Galion на месте. Лёгкая, стильная, качество на уровне. Всё честно и прозрачно."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_5">"Сомневался поначалу насчёт онлайн-покупки, но всё прошло отлично. Встретились лично, проверил куртку Moncler Galion на месте. Лёгкая, стильная, качество на уровне. Всё честно и прозрачно."</p>
               <div class="review-author"><span class="review-name">Pavel S.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Взял кардиган Moncler — сразу предупредили что маломерит и посоветовали размер побольше. Подошло идеально. Приятно когда продавец честен и думает о клиенте, а не просто о продаже."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_6">"Взял кардиган Moncler — сразу предупредили что маломерит и посоветовали размер побольше. Подошло идеально. Приятно когда продавец честен и думает о клиенте, а не просто о продаже."</p>
               <div class="review-author"><span class="review-name">Roman L.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Доставка в Ригу прошла быстро и без каких-либо проблем. Жилет Parajumpers Jeordie в идеальном состоянии, точно как описано. Связь была на протяжении всего процесса. Спасибо большое!"</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_7">"Доставка в Ригу прошла быстро и без каких-либо проблем. Жилет Parajumpers Jeordie в идеальном состоянии, точно как описано. Связь была на протяжении всего процесса. Спасибо большое!"</p>
               <div class="review-author"><span class="review-name">Irina P.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Очень стильный магазин с хорошим выбором. Взял Moncler Bormes — качество на высоте, выглядит дорого. Быстрые ответы в Telegram, всё объяснили и помогли определиться с размером."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_8">"Очень стильный магазин с хорошим выбором. Взял Moncler Bormes — качество на высоте, выглядит дорого. Быстрые ответы в Telegram, всё объяснили и помогли определиться с размером."</p>
               <div class="review-author"><span class="review-name">Andrei N.</span></div>
             </div>
             <div class="review-card">
-              <div class="review-stars">★★★★★</div>
-              <p class="review-text">"Первый раз покупал через такой формат — немного волновался. Но всё прошло супер: встретились лично в Таллинне, куртка именно как на фото. Никакого обмана. Буду рекомендовать всем знакомым."</p>
+              <div class="review-stars" role="img" aria-label="5 из 5" data-i18n-aria-label="five_star_review">★★★★★</div>
+              <p class="review-text" data-i18n="review_9">"Первый раз покупал через такой формат — немного волновался. Но всё прошло супер: встретились лично в Таллинне, куртка именно как на фото. Никакого обмана. Буду рекомендовать всем знакомым."</p>
               <div class="review-author"><span class="review-name">Sergei M.</span></div>
             </div>
           </div>
           <div class="reviews-nav">
-            <button class="rev-arrow rev-arrow--l" id="rev-prev" aria-label="Назад">
+            <button class="rev-arrow rev-arrow--l" id="rev-prev" type="button" aria-label="Предыдущие отзывы" data-i18n-aria-label="reviews_prev">
               <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
             </button>
             <div class="rev-dots" id="rev-dots"></div>
-            <button class="rev-arrow rev-arrow--r" id="rev-next" aria-label="Вперёд">
+            <button class="rev-arrow rev-arrow--r" id="rev-next" type="button" aria-label="Следующие отзывы" data-i18n-aria-label="reviews_next">
               <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
             </button>
           </div>
@@ -249,19 +291,19 @@
           <h2 class="section-title" data-i18n="contact_title">Написать нам</h2>
           <p class="contact-sub" data-i18n="contact_sub">Самые быстрые ответы — в Telegram.<br>Поможем с выбором, размером и оформлением заказа.</p>
           <div class="contact-rows">
-            <a href="https://t.me/andrelookstore" class="contact-row" target="_blank" rel="noopener">
+            <a href="https://t.me/andrelookstore" class="contact-row" target="_blank" rel="noopener noreferrer">
               <span class="contact-row__name">Telegram</span>
               <span class="contact-row__handle">@andrelookstore</span>
               <span class="contact-row__arrow">↗</span>
             </a>
-            <a href="https://www.instagram.com/andrelook.store/" class="contact-row" target="_blank" rel="noopener">
+            <a href="https://www.instagram.com/andrelook.store/" class="contact-row" target="_blank" rel="noopener noreferrer">
               <span class="contact-row__name">Instagram</span>
               <span class="contact-row__handle">@andrelook.store</span>
               <span class="contact-row__arrow">↗</span>
             </a>
-            <a href="/cdn-cgi/l/email-protection#0f66616960216e616b7d6a636060644f68626e6663216c6062" class="contact-row">
+            <a href="mailto:info.andrelook@gmail.com" class="contact-row">
               <span class="contact-row__name">Email</span>
-              <span class="contact-row__handle"><span class="__cf_email__" data-cfemail="b9d0d7dfd697d8d7ddcbdcd5d6d6d2f9ded4d8d0d597dad6d4">[email&#160;protected]</span></span>
+              <span class="contact-row__handle">info.andrelook@gmail.com</span>
               <span class="contact-row__arrow">↗</span>
             </a>
           </div>
@@ -276,13 +318,13 @@
       <div class="container footer-top-inner">
         <div class="footer-brand">
           <a href="index.html">
-            <img src="images/logo.png" alt="Andrelook" class="footer-logo" />
+            <img src="images/logo.png" alt="Andrelook" class="footer-logo" width="476" height="302" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text" data-i18n="hero_tagline">Мировые бренды · Личный подход</p>
         </div>
         <div class="footer-col">
-          <span class="footer-col-title">Навигация</span>
-          <nav class="footer-nav-list">
+          <span class="footer-col-title" data-i18n="footer_navigation">Навигация</span>
+          <nav class="footer-nav-list" aria-label="Footer navigation" data-i18n-aria-label="footer_navigation">
             <a href="index.html"   data-i18n="nav_home">Главная</a>
             <a href="catalog.html" data-i18n="nav_catalog">Каталог</a>
             <a href="#how"         data-i18n="nav_how">Как купить</a>
@@ -290,19 +332,19 @@
           </nav>
         </div>
         <div class="footer-col">
-          <span class="footer-col-title">Контакты</span>
+          <span class="footer-col-title" data-i18n="footer_contacts">Контакты</span>
           <div class="footer-contacts">
-            <a href="https://t.me/andrelookstore" class="footer-contact-link" target="_blank" rel="noopener">
-              <span class="footer-contact-icon">✈</span>
+            <a href="https://t.me/andrelookstore" class="footer-contact-link" target="_blank" rel="noopener noreferrer">
+              <span class="footer-contact-icon footer-contact-icon--telegram" aria-hidden="true"></span>
               <span>Telegram</span>
             </a>
-            <a href="https://www.instagram.com/andrelook.store/" class="footer-contact-link" target="_blank" rel="noopener">
-              <span class="footer-contact-icon">◎</span>
+            <a href="https://www.instagram.com/andrelook.store/" class="footer-contact-link" target="_blank" rel="noopener noreferrer">
+              <span class="footer-contact-icon footer-contact-icon--instagram" aria-hidden="true"></span>
               <span>Instagram</span>
             </a>
-            <a href="/cdn-cgi/l/email-protection#254c4b434a0b444b415740494a4a4e654248444c490b464a48" class="footer-contact-link">
-              <span class="footer-contact-icon">@</span>
-              <span><span class="__cf_email__" data-cfemail="21484f474e0f404f4553444d4e4e4a61464c40484d0f424e4c">[email&#160;protected]</span></span>
+            <a href="mailto:info.andrelook@gmail.com" class="footer-contact-link">
+              <span class="footer-contact-icon footer-contact-icon--email" aria-hidden="true"></span>
+              <span>info.andrelook@gmail.com</span>
             </a>
           </div>
         </div>
@@ -317,6 +359,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

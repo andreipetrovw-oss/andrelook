@@ -83,7 +83,25 @@ const I18N = {
     modal_tg:'Write on Telegram',
     back_catalog:'← Back to catalog',
     prod_avail:'Availability: on request', prod_delivery:'Delivery across Europe', prod_meeting:'Personal meeting in Tallinn',
-    footer_copy:'© 2025 Andrelook',
+    footer_copy:'© 2025 Andrelook', footer_navigation:'Navigation', footer_contacts:'Contact', footer_region:'Estonia · Europe',
+    scroll_hint:'scroll', language_menu:'Choose language', menu_toggle:'Open menu', close_modal:'Close',
+    primary_navigation:'Primary navigation', mobile_navigation:'Mobile navigation', product_categories:'Product categories', product_image:'{name}, image {n}',
+    reviews_prev:'Previous reviews', reviews_next:'Next reviews', reviews_page:'Go to review page {n}', five_star_review:'5 out of 5 stars',
+    colors_label:'Available colours', product_not_found:'Product not found',
+    home_title:'Moncler & Parajumpers Tallinn | Andrelook',
+    home_description:'Moncler and Parajumpers jackets in Tallinn. Personal fitting, sizing help and delivery across Europe. Message us on Telegram.',
+    catalog_title:'Moncler & Parajumpers Catalog | Andrelook Tallinn',
+    catalog_description:'Browse Moncler and Parajumpers jackets, vests, hoodies and T-shirts. Personal meetings in Tallinn and delivery across Europe.',
+    review_name_1:'Aleksandr M.',
+    review_1:`“I ordered a Moncler Maya — it arrived quickly and the quality is excellent. The packaging was careful and everything was exactly as agreed. The fabric is soft and the stitching is perfect. I will definitely return.”`,
+    review_2:`“I bought a Moncler Tibb vest after looking for this exact style for a long time. Andrei helped me choose the size and explained every detail. It fit perfectly on the first try. Excellent service.”`,
+    review_3:`“Very happy with my purchase. The Parajumpers Jeordie is exactly what I had been looking for. Fair price, fast delivery and secure packaging. I will recommend Andrelook to my friends.”`,
+    review_4:`“This is my second purchase here and I am happy again. Everything is clear: we agreed, I paid and received it. The Moncler Vezere is exceptionally light, warm and looks premium.”`,
+    review_5:`“I was unsure about buying online at first, but everything went very well. We met in person and I checked the Moncler Galion on the spot. It is light, stylish and well made. Everything was honest and transparent.”`,
+    review_6:`“I bought a Moncler cardigan. They warned me that it runs small and recommended a larger size, which fit perfectly. It is nice when a seller thinks about the customer, not just the sale.”`,
+    review_7:`“Delivery to Riga was fast and trouble-free. The Parajumpers Jeordie vest was in perfect condition, exactly as described. Communication was clear throughout the process. Thank you!”`,
+    review_8:`“A very stylish shop with a good selection. I bought a Moncler Bormes — the quality is excellent and it looks premium. Telegram replies were fast and they helped me choose the size.”`,
+    review_9:`“It was my first purchase in this format, so I was a little nervous. Everything went smoothly: we met in Tallinn and the jacket was exactly as shown. I will recommend Andrelook to people I know.”`,
   },
   ru: {
     nav_home:'Главная', nav_catalog:'Каталог', nav_how:'Как купить', nav_contact:'Контакты', nav_reviews:'Отзывы',
@@ -119,7 +137,25 @@ const I18N = {
     modal_tg:'Написать в Telegram',
     back_catalog:'← Назад в каталог',
     prod_avail:'Наличие: по запросу', prod_delivery:'Доставка по Европе', prod_meeting:'Личная встреча в Таллинне',
-    footer_copy:'© 2025 Andrelook',
+    footer_copy:'© 2025 Andrelook', footer_navigation:'Навигация', footer_contacts:'Контакты', footer_region:'Эстония · Европа',
+    scroll_hint:'листайте', language_menu:'Выбрать язык', menu_toggle:'Открыть меню', close_modal:'Закрыть',
+    primary_navigation:'Основная навигация', mobile_navigation:'Мобильная навигация', product_categories:'Категории товаров', product_image:'{name}, изображение {n}',
+    reviews_prev:'Предыдущие отзывы', reviews_next:'Следующие отзывы', reviews_page:'Перейти к странице отзывов {n}', five_star_review:'5 из 5 звёзд',
+    colors_label:'Доступные цвета', product_not_found:'Товар не найден',
+    home_title:'Moncler & Parajumpers Tallinn | Купить — Andrelook',
+    home_description:'Куртки Moncler и Parajumpers в Таллинне. Личная примерка, помощь с размером, доставка по Европе. Пишите в Telegram — ответим быстро.',
+    catalog_title:'Каталог Moncler & Parajumpers | Andrelook Tallinn',
+    catalog_description:'Куртки, жилетки, худи и футболки Moncler и Parajumpers. Личная встреча в Таллинне и доставка по Европе.',
+    review_name_1:'Александр М.',
+    review_1:'«Заказал Moncler Maya — куртка пришла быстро, качество просто отличное. Упаковка аккуратная, всё именно как договаривались. Ткань мягкая, пошив идеальный. Однозначно буду обращаться снова.»',
+    review_2:'«Брал жилет Moncler Tibb — давно искал именно такой фасон. Андрей помог с выбором размера, объяснил все нюансы. Всё подошло идеально с первого раза. Сервис на высшем уровне.»',
+    review_3:'«Очень доволен покупкой. Parajumpers Jeordie — именно то, что искал долгое время. Цена честная, доставка быстрая, упаковка надёжная. Буду рекомендовать всем друзьям.»',
+    review_4:'«Покупаю здесь уже второй раз и снова доволен. Всегда всё чётко — договорились, оплатил, получил. Moncler Vezere просто огонь: очень лёгкая, тёплая и выглядит дорого.»',
+    review_5:'«Сомневался поначалу насчёт онлайн-покупки, но всё прошло отлично. Встретились лично, проверил куртку Moncler Galion на месте. Лёгкая, стильная, качество на уровне. Всё честно и прозрачно.»',
+    review_6:'«Взял кардиган Moncler — сразу предупредили, что маломерит, и посоветовали размер побольше. Подошло идеально. Приятно, когда продавец честен и думает о клиенте, а не просто о продаже.»',
+    review_7:'«Доставка в Ригу прошла быстро и без каких-либо проблем. Жилет Parajumpers Jeordie в идеальном состоянии, точно как описано. Связь была на протяжении всего процесса. Спасибо большое!»',
+    review_8:'«Очень стильный магазин с хорошим выбором. Взял Moncler Bormes — качество на высоте, выглядит дорого. Быстрые ответы в Telegram, всё объяснили и помогли определиться с размером.»',
+    review_9:'«Первый раз покупал через такой формат — немного волновался. Но всё прошло супер: встретились лично в Таллинне, куртка именно как на фото. Никакого обмана. Буду рекомендовать всем знакомым.»',
   },
   et: {
     nav_home:'Avaleht', nav_catalog:'Kataloog', nav_how:'Kuidas osta', nav_contact:'Kontakt', nav_reviews:'Arvustused',
@@ -155,7 +191,25 @@ const I18N = {
     modal_tg:'Kirjuta Telegramis',
     back_catalog:'← Tagasi kataloogi',
     prod_avail:'Saadavus: päringul', prod_delivery:'Tarne üle Euroopa', prod_meeting:'Isiklik kohtumine Tallinnas',
-    footer_copy:'© 2025 Andrelook',
+    footer_copy:'© 2025 Andrelook', footer_navigation:'Navigatsioon', footer_contacts:'Kontakt', footer_region:'Eesti · Euroopa',
+    scroll_hint:'kergi', language_menu:'Vali keel', menu_toggle:'Ava menüü', close_modal:'Sulge',
+    primary_navigation:'Põhinavigatsioon', mobile_navigation:'Mobiilinavigatsioon', product_categories:'Tootekategooriad', product_image:'{name}, pilt {n}',
+    reviews_prev:'Eelmised arvustused', reviews_next:'Järgmised arvustused', reviews_page:'Mine arvustuste lehele {n}', five_star_review:'5 tärni 5-st',
+    colors_label:'Saadaolevad värvid', product_not_found:'Toodet ei leitud',
+    home_title:'Moncler & Parajumpers Tallinn | Andrelook',
+    home_description:'Moncleri ja Parajumpersi jakid Tallinnas. Isiklik proovimine, abi suuruse valikul ja tarne üle Euroopa. Kirjuta meile Telegramis.',
+    catalog_title:'Moncleri ja Parajumpersi kataloog | Andrelook Tallinn',
+    catalog_description:'Moncleri ja Parajumpersi jakid, vestid, pusad ja T-särgid. Isiklik kohtumine Tallinnas ja tarne üle Euroopa.',
+    review_name_1:'Aleksandr M.',
+    review_1:'„Tellisin Moncler Maya — jope saabus kiiresti ja kvaliteet on suurepärane. Pakend oli hoolikas ning kõik oli täpselt nii, nagu kokku leppisime. Kangas on pehme ja õmblused ideaalsed. Tellin kindlasti veel.”',
+    review_2:'„Ostsin Moncler Tibbi vesti, sest olin just sellist lõiget kaua otsinud. Andrei aitas suuruse valida ja selgitas kõiki üksikasju. Vest sobis kohe ideaalselt. Väga hea teenindus.”',
+    review_3:'„Olen ostuga väga rahul. Parajumpers Jeordie on täpselt see, mida olin kaua otsinud. Õiglane hind, kiire tarne ja turvaline pakend. Soovitan Andrelooki kindlasti sõpradele.”',
+    review_4:'„See oli minu teine ost siit ja olen taas rahul. Kõik käib selgelt: leppisime kokku, tasusin ja sain kauba kätte. Moncler Vezere on väga kerge, soe ja näeb suurepärane välja.”',
+    review_5:'„Alguses kahtlesin veidi veebist ostmises, kuid kõik läks väga hästi. Kohtusime isiklikult ja sain Moncler Galioni kohapeal üle vaadata. Kerge, stiilne ja kvaliteetne. Kõik oli aus ja läbipaistev.”',
+    review_6:'„Ostsin Moncleri kardigani. Mind hoiatati, et mudel on väiksema lõikega, ja soovitati suuremat suurust. See sobis ideaalselt. Tore, kui müüja mõtleb kliendile, mitte ainult müügile.”',
+    review_7:'„Tarne Riiga oli kiire ja probleemideta. Parajumpers Jeordie vest oli ideaalses seisukorras, täpselt nagu kirjeldatud. Suhtlus oli kogu protsessi vältel selge. Suur tänu!”',
+    review_8:'„Väga stiilne pood hea valikuga. Ostsin Moncler Bormesi — kvaliteet on suurepärane ja see näeb väga hea välja. Telegramis vastati kiiresti ning aidati suurus valida.”',
+    review_9:'„See oli minu esimene ost sellisel viisil ja olin veidi mures. Kõik läks suurepäraselt: kohtusime Tallinnas ja jope oli täpselt nagu fotodel. Soovitan Andrelooki kindlasti tuttavatele.”',
   },
 };
 
@@ -595,14 +649,135 @@ const PRODUCTS = [
   },
 ];
 
-/* ── Language ────────────────────────────────── */
-let currentLang = localStorage.getItem('al_lang') || 'ru';
+/* ── Language and metadata ───────────────────── */
+const SITE_URL = 'https://www.andrelook.store';
+const SUPPORTED_LANGS = ['ru', 'en', 'et'];
+const OG_LOCALES = { ru: 'ru_RU', en: 'en_US', et: 'et_EE' };
+const storedLang = localStorage.getItem('al_lang');
+let currentLang = SUPPORTED_LANGS.includes(storedLang) ? storedLang : 'ru';
 
 function t(key) {
   return (I18N[currentLang] || I18N.ru)[key] || key;
 }
 
+function escapeHTML(value) {
+  return String(value).replace(/[&<>'"]/g, (char) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;',
+  })[char]);
+}
+
+function ensureMeta(attribute, value) {
+  let element = document.head.querySelector(`meta[${attribute}="${value}"]`);
+  if (!element) {
+    element = document.createElement('meta');
+    element.setAttribute(attribute, value);
+    document.head.appendChild(element);
+  }
+  return element;
+}
+
+function setMeta(attribute, value, content) {
+  ensureMeta(attribute, value).setAttribute('content', content);
+}
+
+function updateStaticMetadata() {
+  const page = document.body.dataset.page;
+  if (!['home', 'catalog'].includes(page)) return;
+
+  const isHome = page === 'home';
+  const title = t(isHome ? 'home_title' : 'catalog_title');
+  const description = t(isHome ? 'home_description' : 'catalog_description');
+  const url = isHome ? `${SITE_URL}/` : `${SITE_URL}/catalog.html`;
+
+  document.title = title;
+  setMeta('name', 'description', description);
+  setMeta('property', 'og:title', title);
+  setMeta('property', 'og:description', description);
+  setMeta('property', 'og:url', url);
+  setMeta('property', 'og:locale', OG_LOCALES[currentLang]);
+  setMeta('name', 'twitter:title', title);
+  setMeta('name', 'twitter:description', description);
+}
+
+function updateProductMetadata(product, name, category, description) {
+  const url = `${SITE_URL}/product.html?id=${product.id}`;
+  const imageUrls = product.images.map((src) => new URL(src, `${SITE_URL}/`).href);
+  const summaries = {
+    ru: `${name} в Andrelook. Личная встреча в Таллинне или доставка по Европе. Подробности — в Telegram.`,
+    en: `${name} at Andrelook. Personal meeting in Tallinn or delivery across Europe. Ask for details on Telegram.`,
+    et: `${name} Andrelookis. Isiklik kohtumine Tallinnas või tarne üle Euroopa. Küsi lisateavet Telegramis.`,
+  };
+  const summary = summaries[currentLang];
+  const title = `${name} | Andrelook Tallinn`;
+  const primaryImage = imageUrls[0] || `${SITE_URL}/images/logo.png`;
+
+  document.title = title;
+  document.getElementById('canonical-url')?.setAttribute('href', url);
+  setMeta('name', 'description', summary);
+  setMeta('name', 'robots', 'index, follow');
+  setMeta('property', 'og:title', title);
+  setMeta('property', 'og:description', summary);
+  setMeta('property', 'og:type', 'product');
+  setMeta('property', 'og:url', url);
+  setMeta('property', 'og:image', primaryImage);
+  setMeta('property', 'og:image:alt', name);
+  setMeta('property', 'og:locale', OG_LOCALES[currentLang]);
+  setMeta('name', 'twitter:title', title);
+  setMeta('name', 'twitter:description', summary);
+  setMeta('name', 'twitter:image', primaryImage);
+  setMeta('name', 'twitter:image:alt', name);
+
+  let jsonLd = document.getElementById('product-structured-data');
+  if (!jsonLd) {
+    jsonLd = document.createElement('script');
+    jsonLd.type = 'application/ld+json';
+    jsonLd.id = 'product-structured-data';
+    document.head.appendChild(jsonLd);
+  }
+  jsonLd.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Product',
+        '@id': `${url}#product`,
+        name,
+        description,
+        category,
+        image: imageUrls,
+        brand: { '@type': 'Brand', name: product.brand },
+        url,
+        inLanguage: currentLang,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: t('nav_home'), item: `${SITE_URL}/` },
+          { '@type': 'ListItem', position: 2, name: t('nav_catalog'), item: `${SITE_URL}/catalog.html` },
+          { '@type': 'ListItem', position: 3, name, item: url },
+        ],
+      },
+    ],
+  });
+}
+
+function setInvalidProductMetadata() {
+  const title = `${t('product_not_found')} | Andrelook`;
+  const url = `${SITE_URL}${location.pathname}${location.search}`;
+  document.title = title;
+  document.getElementById('canonical-url')?.setAttribute('href', url);
+  setMeta('name', 'robots', 'noindex, follow');
+  setMeta('name', 'description', t('product_not_found'));
+  setMeta('property', 'og:title', title);
+  setMeta('property', 'og:description', t('product_not_found'));
+  setMeta('property', 'og:type', 'website');
+  setMeta('property', 'og:url', url);
+  setMeta('name', 'twitter:title', title);
+  setMeta('name', 'twitter:description', t('product_not_found'));
+  document.getElementById('product-structured-data')?.remove();
+}
+
 function setLang(lang) {
+  if (!SUPPORTED_LANGS.includes(lang)) return;
   currentLang = lang;
   localStorage.setItem('al_lang', lang);
   applyTranslations();
@@ -623,10 +798,20 @@ function applyTranslations() {
       el.textContent = val;
     }
   });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
+    el.setAttribute('aria-label', t(el.dataset.i18nAriaLabel));
+  });
   document.querySelectorAll('.lang-btn').forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.lang === currentLang);
+    btn.setAttribute('aria-pressed', String(btn.dataset.lang === currentLang));
+  });
+  const mobileLangLabel = document.querySelector('#mobile-lang-toggle span');
+  if (mobileLangLabel) mobileLangLabel.textContent = currentLang.toUpperCase();
+  document.querySelectorAll('.rev-dot').forEach((dot, index) => {
+    dot.setAttribute('aria-label', t('reviews_page').replace('{n}', index + 1));
   });
   document.documentElement.lang = currentLang;
+  updateStaticMetadata();
 }
 
 function buildTgLink(name) {
@@ -640,7 +825,7 @@ function renderTicker() {
   const phrases = TICKER_PHRASES[currentLang] || TICKER_PHRASES.ru;
   const all = [...phrases, ...phrases];
   el.innerHTML = all.map((p) =>
-    `<span>${p}</span><span class="dot" aria-hidden="true">·</span>`
+    `<span>${p}</span><span class="dot" aria-hidden="true"></span>`
   ).join('');
 }
 
@@ -660,16 +845,27 @@ function initHeader() {
   });
 
   if (!hamburger || !mobileNav) return;
-  hamburger.addEventListener('click', () => {
-    const open = hamburger.classList.toggle('open');
+  const setMenuOpen = (open) => {
+    hamburger.classList.toggle('open', open);
     mobileNav.classList.toggle('open', open);
+    hamburger.setAttribute('aria-expanded', String(open));
+    mobileNav.setAttribute('aria-hidden', String(!open));
+    if (open) mobileNav.removeAttribute('inert');
+    else mobileNav.setAttribute('inert', '');
     document.body.style.overflow = open ? 'hidden' : '';
+  };
+  hamburger.addEventListener('click', () => {
+    setMenuOpen(!hamburger.classList.contains('open'));
   });
   mobileNav.addEventListener('click', (e) => {
     if (e.target.tagName === 'A') {
-      hamburger.classList.remove('open');
-      mobileNav.classList.remove('open');
-      document.body.style.overflow = '';
+      setMenuOpen(false);
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && hamburger.classList.contains('open')) {
+      setMenuOpen(false);
+      hamburger.focus();
     }
   });
 }
@@ -691,6 +887,10 @@ function initReveal() {
 function animateNumbers() {
   const items = document.querySelectorAll('.stat-num[data-target]');
   if (!items.length) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    items.forEach((el) => { el.textContent = `${el.dataset.target}${el.dataset.suffix || ''}`; });
+    return;
+  }
   const obs = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
@@ -712,6 +912,8 @@ function animateNumbers() {
 }
 
 /* ── Modal ──────────────────────────────────── */
+let modalReturnFocus = null;
+
 function openModal(product) {
   const overlay  = document.getElementById('modal-overlay');
   const nameEl   = document.getElementById('modal-product-name');
@@ -731,7 +933,7 @@ function openModal(product) {
     if (colors.length) {
       const label = document.createElement('p');
       label.className = 'modal-colors-label';
-      label.textContent = currentLang === 'ru' ? 'Доступные цвета' : currentLang === 'et' ? 'Saadaolevad värvid' : 'Available colours';
+      label.textContent = t('colors_label');
       colorsEl.appendChild(label);
       const list = document.createElement('div');
       list.className = 'modal-colors-list';
@@ -753,15 +955,23 @@ function openModal(product) {
     }
   }
 
+  modalReturnFocus = document.activeElement;
+  overlay.removeAttribute('inert');
   overlay.classList.add('open');
+  overlay.setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
+  requestAnimationFrame(() => document.getElementById('modal-close')?.focus());
 }
 
 function closeModal() {
   const overlay = document.getElementById('modal-overlay');
-  if (!overlay) return;
+  if (!overlay || !overlay.classList.contains('open')) return;
   overlay.classList.remove('open');
+  overlay.setAttribute('aria-hidden', 'true');
+  overlay.setAttribute('inert', '');
   document.body.style.overflow = '';
+  if (modalReturnFocus instanceof HTMLElement) modalReturnFocus.focus();
+  modalReturnFocus = null;
 }
 
 function initModal() {
@@ -770,11 +980,30 @@ function initModal() {
   if (!overlay) return;
   closeBtn?.addEventListener('click', closeModal);
   overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+  document.addEventListener('keydown', (e) => {
+    if (!overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') {
+      closeModal();
+      return;
+    }
+    if (e.key !== 'Tab') return;
+    const focusable = Array.from(overlay.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])'))
+      .filter((el) => !el.hasAttribute('disabled'));
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  });
 }
 
 /* ── Product Card ───────────────────────────── */
-function createProductCard(product) {
+function createProductCard(product, index) {
   const lang = currentLang;
   const name = product.names[lang] || product.names.ru;
   const cat  = product.cats[lang]  || product.cats.ru;
@@ -794,29 +1023,35 @@ function createProductCard(product) {
     img.alt = name;
     img.width = 600;
     img.height = 750;
+    img.loading = index < 4 ? 'eager' : 'lazy';
+    img.decoding = 'async';
+    if (index === 0) img.fetchPriority = 'high';
     thumb.appendChild(img);
   } else {
     const ph = document.createElement('div');
     ph.className = 'pc-placeholder';
     ph.style.background = product.color;
-    ph.innerHTML = `<span>${product.brand}</span>`;
+    const brand = document.createElement('span');
+    brand.textContent = product.brand;
+    ph.appendChild(brand);
     thumb.appendChild(ph);
   }
 
   const cover = document.createElement('a');
   cover.href = href;
   cover.className = 'pc-cover';
+  cover.setAttribute('aria-label', name);
   thumb.appendChild(cover);
 
   const body = document.createElement('div');
   body.className = 'pc-body';
   body.innerHTML = `
-    <span class="pc-cat">${cat}</span>
-    <a href="${href}" class="pc-name">${name}</a>
-    <p class="pc-brand">${product.brand}</p>
+    <span class="pc-cat">${escapeHTML(cat)}</span>
+    <a href="${href}" class="pc-name">${escapeHTML(name)}</a>
+    <p class="pc-brand">${escapeHTML(product.brand)}</p>
     <div class="pc-footer">
-      <span class="pc-price">${t('on_request')}</span>
-      <button class="btn-inquiry"><span>${t('inquiry_btn')}</span></button>
+      <span class="pc-price">${escapeHTML(t('on_request'))}</span>
+      <button class="btn-inquiry" type="button" aria-label="${escapeHTML(`${t('inquiry_btn')}: ${name}`)}"><span>${escapeHTML(t('inquiry_btn'))}</span></button>
     </div>`;
 
   card.appendChild(thumb);
@@ -836,16 +1071,21 @@ function renderProducts(filter = 'all') {
     grid.innerHTML = `<div class="empty-state"><p>—</p></div>`;
     return;
   }
-  list.forEach(p => grid.appendChild(createProductCard(p)));
+  list.forEach((p, index) => grid.appendChild(createProductCard(p, index)));
 }
 
 /* ── Filters ────────────────────────────────── */
 function initFilters() {
   const btns = document.querySelectorAll('.filter-btn');
   if (!btns.length) return;
+  btns.forEach((btn) => btn.setAttribute('aria-pressed', String(btn.classList.contains('active'))));
   btns.forEach(btn => btn.addEventListener('click', () => {
-    btns.forEach(b => b.classList.remove('active'));
+    btns.forEach((b) => {
+      b.classList.remove('active');
+      b.setAttribute('aria-pressed', 'false');
+    });
     btn.classList.add('active');
+    btn.setAttribute('aria-pressed', 'true');
     renderProducts(btn.dataset.filter);
   }));
 }
@@ -854,47 +1094,49 @@ function initFilters() {
 let currentProduct = null;
 
 function renderProductPage() {
-  if (!currentProduct) return;
+  if (!currentProduct) {
+    const container = document.getElementById('product-detail');
+    if (!container) return;
+    setInvalidProductMetadata();
+    container.innerHTML = `<h1 class="product-not-found">${escapeHTML(t('product_not_found'))}</h1>`;
+    return;
+  }
   const p    = currentProduct;
   const name = p.names[currentLang] || p.names.ru;
   const cat  = p.cats[currentLang]  || p.cats.ru;
   const desc = p.descs[currentLang] || p.descs.ru;
   const imgs = p.images && p.images.length ? p.images : [];
 
-  document.title = `${name} | Moncler Tallinn — Andrelook`;
-
-  // Dynamic meta description
-  let metaDesc = document.querySelector('meta[name="description"]');
-  if (!metaDesc) { metaDesc = document.createElement('meta'); metaDesc.name = 'description'; document.head.appendChild(metaDesc); }
-  metaDesc.content = currentLang === 'ru'
-    ? `Купить ${name} в Таллинне или с доставкой по Европе. Пишите в Telegram.`
-    : currentLang === 'et'
-    ? `Osta ${name} Tallinnas või tarniga üle Euroopa. Kirjuta Telegramis.`
-    : `Buy ${name} in Tallinn or delivery across Europe. Write us on Telegram.`;
+  updateProductMetadata(p, name, cat, desc);
 
   document.querySelectorAll('[data-i18n="back_catalog"]').forEach(el => el.textContent = t('back_catalog'));
 
   const mainEl = document.getElementById('product-main-img');
   if (mainEl) {
     mainEl.innerHTML = imgs.length
-      ? `<img src="${imgs[0]}" alt="${name}" id="active-img">`
-      : `<div class="product-placeholder-lg" style="background:${p.color}"><span>${p.brand}</span></div>`;
+      ? `<img src="${escapeHTML(imgs[0])}" alt="${escapeHTML(name)}" id="active-img" width="900" height="1125" decoding="async" fetchpriority="high">`
+      : `<div class="product-placeholder-lg" style="background:${p.color}"><span>${escapeHTML(p.brand)}</span></div>`;
   }
 
   const thumbsEl = document.getElementById('product-thumbs');
   if (thumbsEl) {
     if (imgs.length > 1) {
-      thumbsEl.innerHTML = imgs.map((src, i) =>
-        `<button class="thumb${i===0?' active':''}" data-src="${src}">
-           <img src="${src}" alt="${name} ${i+1}" loading="lazy">
-         </button>`
-      ).join('');
+      thumbsEl.innerHTML = imgs.map((src, i) => {
+        const imageLabel = t('product_image').replace('{name}', name).replace('{n}', i + 1);
+        return `<button class="thumb${i===0?' active':''}" type="button" data-src="${escapeHTML(src)}" aria-label="${escapeHTML(imageLabel)}" aria-pressed="${i === 0}">
+           <img src="${escapeHTML(src)}" alt="${escapeHTML(imageLabel)}" width="180" height="225" loading="lazy" decoding="async">
+         </button>`;
+      }).join('');
       thumbsEl.querySelectorAll('.thumb').forEach(btn => {
         btn.addEventListener('click', () => {
           const activeImg = document.getElementById('active-img');
           if (activeImg) activeImg.src = btn.dataset.src;
-          thumbsEl.querySelectorAll('.thumb').forEach(b => b.classList.remove('active'));
+          thumbsEl.querySelectorAll('.thumb').forEach((b) => {
+            b.classList.remove('active');
+            b.setAttribute('aria-pressed', 'false');
+          });
           btn.classList.add('active');
+          btn.setAttribute('aria-pressed', 'true');
         });
       });
     } else {
@@ -907,12 +1149,13 @@ function renderProductPage() {
     const colors = p.colors || [];
     let colorsHtml = '';
     if (colors.length) {
-      const colorsLabel = currentLang === 'ru' ? 'Доступные цвета' : currentLang === 'et' ? 'Saadaolevad värvid' : 'Available colours';
+      const colorsLabel = t('colors_label');
       const dots = colors.map(c => {
         const border = (c.hex === '#F5F5F5' || c.hex === '#FFFFFF') ? 'border:1px solid #ccc;' : '';
+        const colorName = c.name[currentLang] || c.name.ru;
         return `<div class="pd-color-item">
-          <span class="pd-color-dot" style="background:${c.hex};${border}"></span>
-          <span class="pd-color-name">${c.name[currentLang] || c.name.ru}</span>
+          <span class="pd-color-dot" style="background:${c.hex};${border}" aria-hidden="true"></span>
+          <span class="pd-color-name">${escapeHTML(colorName)}</span>
         </div>`;
       }).join('');
       colorsHtml = `<div class="pd-colors">
@@ -921,27 +1164,19 @@ function renderProductPage() {
       </div>`;
     }
 
-    const sizes = ['S', 'M', 'L', 'XL', 'XXL'];
-    const sizesLabel = currentLang === 'ru' ? 'Размеры' : currentLang === 'et' ? 'Suurused' : 'Sizes';
-    const sizesHtml = `<div class="pd-sizes">
-      <p class="pd-sizes-label">${sizesLabel}</p>
-      <div class="pd-sizes-list">${sizes.map(s => `<span class="pd-size">${s}</span>`).join('')}</div>
-    </div>`;
-
     infoEl.innerHTML = `
-      <p class="product-detail__cat">${cat}</p>
-      <h1 class="product-detail__name">${name}</h1>
-      <p class="product-detail__brand">${p.brand}</p>
+      <p class="product-detail__cat">${escapeHTML(cat)}</p>
+      <h1 class="product-detail__name">${escapeHTML(name)}</h1>
+      <p class="product-detail__brand">${escapeHTML(p.brand)}</p>
       ${colorsHtml}
-      ${sizesHtml}
-      <div class="product-detail__desc">${desc.replace(/\n/g, '<br>')}</div>
+      <div class="product-detail__desc">${escapeHTML(desc).replace(/\n/g, '<br>')}</div>
       <ul class="product-detail__meta">
-        <li>${t('prod_avail')}</li>
-        <li>${t('prod_delivery')}</li>
-        <li>${t('prod_meeting')}</li>
+        <li>${escapeHTML(t('prod_avail'))}</li>
+        <li>${escapeHTML(t('prod_delivery'))}</li>
+        <li>${escapeHTML(t('prod_meeting'))}</li>
       </ul>
-      <button class="btn-primary product-detail__cta" id="detail-inquiry-btn">
-        <span>${t('inquiry_btn')}</span>
+      <button class="btn-primary product-detail__cta" id="detail-inquiry-btn" type="button">
+        <span>${escapeHTML(t('inquiry_btn'))}</span>
       </button>`;
     document.getElementById('detail-inquiry-btn').addEventListener('click', () => openModal(p));
   }
@@ -954,7 +1189,7 @@ function initProductPage() {
   const container = document.getElementById('product-detail');
   if (!container) return;
   if (!currentProduct) {
-    container.innerHTML = '<p style="padding:4rem;text-align:center;font-family:serif;font-size:1.5rem;color:#999">Product not found</p>';
+    renderProductPage();
     return;
   }
   renderProductPage();
@@ -976,12 +1211,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (document.getElementById('products-grid')) {
     const urlFilter = new URLSearchParams(location.search).get('filter');
-    const activeFilter = urlFilter || 'all';
-    if (urlFilter) {
-      const btn = document.querySelector(`.filter-btn[data-filter="${urlFilter}"]`);
+    const validFilters = ['all', ...new Set(PRODUCTS.map((product) => product.category))];
+    const activeFilter = validFilters.includes(urlFilter) ? urlFilter : 'all';
+    if (activeFilter !== 'all') {
+      const btn = document.querySelector(`.filter-btn[data-filter="${activeFilter}"]`);
       if (btn) {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.filter-btn').forEach((b) => {
+          b.classList.remove('active');
+          b.setAttribute('aria-pressed', 'false');
+        });
         btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
       }
     }
     renderProducts(activeFilter);
@@ -1011,9 +1251,12 @@ function initReviews() {
     dotsEl.innerHTML = '';
     const pages = Math.ceil(total / perView());
     for (let i = 0; i < pages; i++) {
-      const d = document.createElement('span');
+      const d = document.createElement('button');
+      d.type = 'button';
       d.className = 'rev-dot' + (i === 0 ? ' on' : '');
-      d.onclick = () => goTo(i);
+      d.setAttribute('aria-label', t('reviews_page').replace('{n}', i + 1));
+      d.setAttribute('aria-current', i === 0 ? 'true' : 'false');
+      d.addEventListener('click', () => goTo(i));
       dotsEl.appendChild(d);
     }
   }
@@ -1022,9 +1265,13 @@ function initReviews() {
     const pv = perView();
     const pages = Math.ceil(total / pv);
     idx = (page + pages) % pages;
-    const cardW = cards[0].offsetWidth + 24;
+    const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+    const cardW = cards[0].offsetWidth + gap;
     track.style.transform = `translateX(-${idx * pv * cardW}px)`;
-    dotsEl.querySelectorAll('.rev-dot').forEach((d, i) => d.classList.toggle('on', i === idx));
+    dotsEl.querySelectorAll('.rev-dot').forEach((d, i) => {
+      d.classList.toggle('on', i === idx);
+      d.setAttribute('aria-current', i === idx ? 'true' : 'false');
+    });
   }
 
   document.getElementById('rev-prev').onclick = () => goTo(idx - 1);
@@ -1042,19 +1289,37 @@ function initMobileLang() {
 
   btn.addEventListener('click', (e) => {
     e.stopPropagation();
-    dropdown.classList.toggle('open');
+    const open = dropdown.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+    dropdown.setAttribute('aria-hidden', String(!open));
+    if (open) dropdown.removeAttribute('inert');
+    else dropdown.setAttribute('inert', '');
   });
 
   document.addEventListener('click', () => {
     dropdown.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    dropdown.setAttribute('aria-hidden', 'true');
+    dropdown.setAttribute('inert', '');
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && dropdown.classList.contains('open')) {
+      dropdown.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      dropdown.setAttribute('aria-hidden', 'true');
+      dropdown.setAttribute('inert', '');
+      btn.focus();
+    }
   });
 
   dropdown.querySelectorAll('.lang-btn').forEach((langBtn) => {
     langBtn.addEventListener('click', () => {
       setLang(langBtn.dataset.lang);
       dropdown.classList.remove('open');
-      // update label
-      if (btn.querySelector('span')) btn.querySelector('span').textContent = langBtn.dataset.lang.toUpperCase();
+      btn.setAttribute('aria-expanded', 'false');
+      dropdown.setAttribute('aria-hidden', 'true');
+      dropdown.setAttribute('inert', '');
     });
   });
 }
