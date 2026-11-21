@@ -1,0 +1,6 @@
+# Andrelook's actual www.andrelook.store repository is a static HTML/CSS/JS site.
+# Keep domains on Vercel until a separately tested Free preview is accepted.
+[build]
+  publish = "."
+
+# No build command is needed for a static-site deploy.
